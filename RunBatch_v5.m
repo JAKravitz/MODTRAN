@@ -5,7 +5,7 @@ close all
 % Set parallel friendly mode
 Mod5.ParallelFriendly(true);
 % Set up batch name
-BatchName = 'v6_';
+BatchName = 'v5_';
 
 % Switch off some annoying and repetitive warnings
 warning('off','Mod5:ReadAlbFromUSGS:DeletedData');
