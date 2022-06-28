@@ -1,5 +1,7 @@
 # MODTRAN
-Atmospheric radiative transfer modeling for aquatic synthetic dataset development.
+Atmospheric radiative transfer modeling for aquatic synthetic dataset development. 
+
+<br>This codebase is intended to read output txt files from the HydroLight aquatic radiative transfer program and model above water reflectance to top-of-atmosphere for various atmosphere conditions and multiple satellite sensor configurations, as well as hyperspectral. 
 
 <br>Parent script is RunBatch_v5.m
 <br>Test output HydroLight data is located in folder 'test'
