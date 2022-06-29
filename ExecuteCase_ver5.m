@@ -34,7 +34,7 @@ EphData.TopoAlt = 90-theHyCase.SZA; % Making the solar zenith angle SZA = 30 deg
 theResults.Site = Site;
 theResults.EphData = EphData;
 %% Load, select and save surface reflectance (R) from Hydrolight
-[HyHead, HyData] = importHydro(['/Users/jkravz311/git/MODTRAN/test/' filesep theHyCase.MFile]);
+[HyHead, HyData] = importHydro(['/nobackup/jakravit/git/MODTRAN/test/' filesep theHyCase.MFile]);
 Alb.Filename = theHyCase.MFile;
 Alb.wv = HyData.R(:,1)/1000; % Convert nm to um
 Alb.Header = CaseName;
